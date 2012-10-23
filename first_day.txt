@@ -199,7 +199,57 @@ The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
 	You're not going to settle for anything less than aswesome in the applications you create,
 		so why seettle for a piss-poor platform?
 
-	
+
+
+William Chen and 
+
+	RTT = round trip time
+
+	if you want to be realtime with something, you want to worry about RTT
+
+	Trend continues to get larger, 
+
+	Requests per page is increasing
+
+	84 requests / page, 
+
+	the stakes are higher, mo money, mo problems
+
+	SPDY is a session-layer replacement for HTTP's connection handling
+
+		faster
+		more secure
+		long-term
+
+	Header compression
+		much of the headers are repeated
+		user-agent
+		cookie
+		http ethods
+		http version string
+
+		reduces bandwidth required for headers
+		10-35% size reduction typical for the first request
+		80-97% csize reduction on longer-lved connections
+
+	Pipelining
+
+		prioritized request multiplexing
+
+		Contention vs. Underutilization
+
+	Multiplexing with prioritization
+		prioritization allows the browser to roget about request heuristics and just send all the requests
+		interleaving allows "simulatenous" delivery of data on multiple streams
+
+	HTTP/1.2 wordaround hacks
+		CSS/JS concategnation
+		spriting images
+		domain sharding
+			bad for network
+			more dns lookups
+			more contention
+		all of these are unnecessary with prioritized multiplexing
 	
 
 
