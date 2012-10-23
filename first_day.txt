@@ -1,0 +1,234 @@
+IO Insights from @rauchg
+
+	learnboost.com
+
+	engine.io just got released 
+
+	when developing with realtime frameworks, we need to know what's going on
+
+	1st strategy 
+
+		built-in instrumentation
+
+		require('debug')('wat')
+
+			TJ Holowaychuk's debug module
+
+			https://github.com/visionmedia/debug
+
+			scoping for your node logs 
+
+	2nd strategy
+
+		capture and displays engine.io traffic
+
+		realtime insight into browser / device usage
+
+			how many of your browsers are using socket connections?
+
+		client insight
+
+			1st strategy
+
+			localStorage.debug
+
+				engine.io codebase and the debug module runs both 
+
+				localStorage is like the process.env for the client
+
+			2nd strategy
+
+				Chrome extension
+
+				IO icon inside of WebInspector
+
+				Analyze and document perfroamcne implications
+
+
+
+
+How my ops guy totally changed my talk last week with a single Nginx module - from @northisup
+
+	https://speakerdeck.com/northisup/krtconf-making-disqus-realtime
+
+	https://twitter.com/northisup
+
+	why do realtime?
+
+		getting new data to the user asap
+
+	disqus architecture
+		thoonk redis queue
+		python glue
+		long(er) polling
+
+
+		thoonk 
+
+			is a queue on top of redis
+
+			implemented as a DFA (http://en.wikipedia.org/wiki/Deterministic_finite_automaton)
+
+			provides job semantics
+				useful for end to end acking
+				reliable job processing in distributed system
+			did I mention it's on top of redis?
+
+
+		python glue
+
+			listens to a thoonk queue
+			cleans & formats message
+				this is the final format for end clients
+				compress data now
+			publish message to nginx and other firehoses
+				forum:id, thread:id, 
+
+		nginx 
+
+			redis / nginx pubsub is effectively free
+
+		disqus.com/jobs
+
+
+ @solomonstre ZeroRPC - guy from dotCloud
+
+	https://twitter.com/solomonstre
+
+	https://www.dotcloud.com/
+
+	http://js.dotcloud.com/
+
+	http://stackio.dotcloud.com/ - 
+
+		stack.io is a language-agnostic framework for distributed and authenticated communication between web and back-end clients. Brought to you by the fine folks at dotCloud.
+
+	ZeroRPC https://github.com/dotcloud/zerorpc-python
+
+	https://twitter.com/lukekarrys/status/260809468122656769
+
+
+
+Julien Genestoux - @julien51 - the Social Web is the Realtime Web
+
+	http://ouvre-boite.com/
+	
+	Superfeedr
+
+	http://www.foundora.com/2010/09/06/julien-genestoux-founder-superfeedr/
+
+	https://twitter.com/
+
+	social networks were supposed to make communication easier are actually now gatekeepers
+
+	people chose their devices over apps
+
+		mobile OS are the new gate keepers
+
+	API as shackles
+
+	we should favor protocols over APIs 
+
+	"I reject your reality and substitute my own." - Adam Savage
+
+	Browser extensions can act on my behalf because they have all the cookies
+
+	http://unhosted.org/
+
+	http://lockerproject.org/
+
+	You have a server which basically becomes a router to different 
+
+	In a real pub-sub world, you don't have to always be online... the server pushes out data and if you've subscribed 
+
+
+Airbnb guy
+	
+	Single Page apps
+
+		Easy way 
+
+			JavaScript app runs entirely in the client
+			Server technology agnostic
+			can use Backbone
+			Poor SEO
+			performance hit to download and evaluate JS before rendering
+
+		The Hard Way - the Holy Grail
+
+			bulk of application runs in the server and in the client
+
+			navigate to any page in the application, renders HTML
+
+			must render full page of HTML without access to DOM (or find a faster DOM implementation)
+
+
+	Prototype structure 
+
+		app directory - runs on both sides
+			view using HTML
+
+			module runs in the context of an express router and 
+
+
+The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
+
+	A delusion offered for sharing
+
+	I think web browsers should speak XMPP and HTTP natively.
+
+	Isode 
+		28 employees, 20 engineers
+		XMPP
+			M-Link
+			Swift
+		Strong commitment to Open Standards 	
+			LDAP, SASL
+
+	Dave Cridland
+		Delusional
+			wrote the only full ACAP server
+			and the only full client
+
+	Use HTTP for application > addressability | delivery
+
+	Use XMPP
+		for identity > browser and user
+		for microcontent delivery
+
+	You're not going to settle for anything less than aswesome in the applications you create,
+		so why seettle for a piss-poor platform?
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
