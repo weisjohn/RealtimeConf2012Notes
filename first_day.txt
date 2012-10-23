@@ -375,8 +375,34 @@ Jose de Castro - @loopingrage http://voxeolabs.com/ - https://www.tropo.com/home
 		time to deconstruct communications
 
 
+Ben Langfeld - https://twitter.com/benlangfeld
 
+	in Brazil, they have more than 1 cell phone / person
 
+	State of Voice Tehcnology:
+		The Dark Ages 
+			Panasonic 
+		The Last Ten Years
+			Asterisk
+			Freeswitch
+		Smarter Endpoints
+			SIP phones
+			Cellphones
+		Convergence
+		Beginnings of Truly Unified Communications
+		Open Architecture
+		Federation
+		Multi-Modal Integration
+			Voice | Text | Video | Presence
+		Collaboration
+		Now is an exciting time to be working with Voice
+	What is a voice application
+		interacts with an audio stream
+	Goes beyond a phone call
+	Live Translation Service
+	Voice Application Examples
+		Mid-Call Assistive Services
+		
 
 
 
