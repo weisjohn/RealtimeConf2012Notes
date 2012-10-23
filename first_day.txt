@@ -272,6 +272,8 @@ William Chen and ?
 
 Arnout Kazemier - Taking the Suck out of WebSuckets and Start Building those Fancy Pancy Applications - @3rdEden
 
+	http://www.slideshare.net/3rdEden/realtimeconfoct2012
+
 	Extraordinary JavaScript Hybrid, founder of Observe.it and Lead Software Engineer at Nodejitsu. Loves real-time, Node.js, NoSQL & other bad-ass technologies
 
 	RFC 6455 - Dec 2011
@@ -402,7 +404,7 @@ Ben Langfeld - https://twitter.com/benlangfeld
 	Live Translation Service
 	Voice Application Examples
 		Mid-Call Assistive Services
-		
+
 
 
 
