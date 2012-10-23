@@ -321,7 +321,59 @@ Arnout Kazemier - Taking the Suck out of WebSuckets and Start Building those Fan
 			How to remove a loading spinner from the top left 
 				sharing is caring...
 
-Firebase -  - @firebase
+Firebase - `		 - @firebase
+
+
+
+Jose de Castro - @loopingrage http://voxeolabs.com/ - https://www.tropo.com/home.jsp
+
+ 	WebRTC is a new API for embedding real-time communications into websites
+
+	http://www.webrtc.org/
+
+	Key Features
+		camera and microphone access
+		real-time media streaming
+		peer-to-peer
+		screen-sharing
+		W3C Standard, Cross Browser
+		Interoperable (Codecs, RTP, ICE)
+		Super Secure
+
+	What's Possible?
+		add voice and video chat to social sites or company intranets
+		build highly specialized chat networks
+		real-time gaming data
+		integrate with regular phone networks (PSTN)
+		Live Events. Journalism.
+		Next-Gen Contact Center
+
+	Communications Value Chain
+		Access
+		Identity / Addressing
+		Services
+		Presentation
+
+
+	For A <==> B, you have to create a session 
+		You can use XMPP for the session description resolution
+
+	Umm. Isn't that like SIP or JINGLE?
+		http://en.wikipedia.org/wiki/Session_Initiation_Protocol
+		The standards group decided not to require a signaling protocol
+		WebRTC is all about media and leaves signlaing to the app
+		Developers are free to 
+
+	WebRTC address?
+		Facebook example...
+		there is no number or address...
+		you just exchange blobs of intent to communicate
+
+	What now?
+		be active! join the mailing list!
+		this is a huge opportunity!
+		time to deconstruct communications
+
 
 
 
