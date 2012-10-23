@@ -203,6 +203,7 @@ The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
 
 William Chen and 
 
+
 	RTT = round trip time
 
 	if you want to be realtime with something, you want to worry about RTT
@@ -251,7 +252,61 @@ William Chen and
 			more contention
 		all of these are unnecessary with prioritized multiplexing
 	
+	Connection Sharing
+		share the same connections for different hostnames
+		no need to establish new connections
+		makes other SPDY features work better
 
+	Server Push
+		is already here, it's called "inlining"
+			prevents a resource from being cached
+			interferes with prioritization since the resource is inlined directly (often via data URLs)
+		SPDY server push is better inlining
+			pushed resources can be cached by the browser
+			pushed resources can be canceled
+		enables proxies like Amazon Silk to do "smart push"
+
+	You can use SPDY for HTTP content...
+
+
+Arnout Kazemier - Taking the Suck out of WebSuckets and Start Building those Fancy Pancy Applications - @3rdEden
+
+	Extraordinary JavaScript Hybrid, founder of Observe.it and Lead Software Engineer at Nodejitsu. Loves real-time, Node.js, NoSQL & other bad-ass technologies
+
+	RFC 6455 - Dec 2011
+
+	WebSockets
+
+	Supports latest RCFC 
+		Chrome 20+, Firefox 12+, 
+
+		known issues and their fixes
+			Usage or detecting an HTTP proxy (AutoProxyDiscovery) crashes < Safari 5.1.4 and Mobile WebKit
+				not feature detectable
+					browser sniff
+			Writing to a closed WebSocket connection can crash the browser & tabs
+				send message every few minutes
+			3G doesn't always work with WebSocket or causes a crash
+				not detectable
+					browser sniff and don't use mobile
+			Pressing ESC in Firefox will drop the established connection. Even after the page has fuly loaded.
+				Capture the event early on and prevent it...	
+					listen to keydown, see if it's 27, then prevent it...
+
+			Sending "invalid" UTF-8 can drop the connection, for example emoji's
+				escape and encodeURI your data, yes... both.
+					for example, if you're building a chat server
+			Firefox doesn't connect to "ws://" from a http
+
+			Safari doesn't allow you to connect using self-signed certificates
+				if you do this in production, you are a nut head, but it can be annoying for development...
+
+		It can get worse...
+			connection blocking
+				firewalls, anti-virus, browser-plugins
+				3% of all requests on port 4000 were blocked
+				enterprise proxies usually block everything except port 80, 443, 843
+					and virus scanners usually target port 80 for scanning and blocking
 
 
 
