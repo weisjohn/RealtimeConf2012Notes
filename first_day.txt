@@ -387,6 +387,7 @@ Ben Langfeld - https://twitter.com/benlangfeld
 		The Last Ten Years
 			Asterisk
 			Freeswitch
+			Prism
 		Smarter Endpoints
 			SIP phones
 			Cellphones
@@ -404,6 +405,25 @@ Ben Langfeld - https://twitter.com/benlangfeld
 	Live Translation Service
 	Voice Application Examples
 		Mid-Call Assistive Services
+	Adhearson : The Ruby Approach
+		Ability to interact between calls
+		drop people into calls, remove people from calls
+		Simple, Extensible API
+		Adhearsion Conf 2012 - Palo Alto - http://adhearsionconf.com/
+		Connectivity is a pain the ass
+	But Jose says I don't need it 
+		WebRTC democratizes real-time voice * video communications
+		but it also encourages silos
+		Public network means a wide range of endpoints
+		You nead a "web thingy"
+	How does it work?
+		Purely a third-party control component driving a VoIP engine
+		Rayo protocol , based on XMPP
+		Supports accessing federated voice networks
+
+
+
+
 
 
 
