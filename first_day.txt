@@ -143,6 +143,8 @@ Julien Genestoux - @julien51 - the Social Web is the Realtime Web
 
 
 Airbnb guy
+
+	http://nerds.airbnb.com/slides-and-video-from-spike-brehms-tech-talk
 	
 	Single Page apps
 
@@ -201,8 +203,7 @@ The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
 
 
 
-William Chen and 
-
+William Chen and ?
 
 	RTT = round trip time
 
@@ -308,7 +309,19 @@ Arnout Kazemier - Taking the Suck out of WebSuckets and Start Building those Fan
 				enterprise proxies usually block everything except port 80, 443, 843
 					and virus scanners usually target port 80 for scanning and blocking
 
+		Recommendations
+			always use SSL when 
+			upgrade from fallbacks
+				JSONP -> Polling -> Streaming -> Plugins -> WebSockets 
+					you really should be deployed on multiple ports
+					start at port 4000 , fall back to 843 , fallback to 443
+			don't use WebSockets on mobile
 
+		A huge front-end concern...
+			How to remove a loading spinner from the top left 
+				sharing is caring...
+
+Firebase -  - @firebase
 
 
 
