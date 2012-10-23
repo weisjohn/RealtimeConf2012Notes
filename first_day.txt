@@ -423,8 +423,53 @@ Ben Langfeld - https://twitter.com/benlangfeld
 
 
 
+Fred Cheng - @fredrocious - https://simperium.com/
 
+	Operational Transforms
+		two operations that are trying to modify the sample state
 
+	Operations
+		What are operations?
+		They describe change from one state to another. examples:
+			String : "1+y", "+y1"
+			Number : +5
+			JSON: '+name { "ab" : "b" }'
+
+	How to generate ops?
+		Application explicityly generates
+		Intercept application events
+		Implicity track
+	Diffs
+		One way to generate operations
+		advantages
+			don't need to track each event
+			application doesn't need to know about operations
+		disadvantages
+			need old state
+			may loose semantic meaning
+			"aaa" -> "aaaa" = "3+a"
+			diff("aaa", "aaaa") = "0+a" or "1+a" or "2+a" or "3+a"
+	Forward Transform
+		A B operations from clients
+		Server applies operation A on the state, 
+		there's a new state
+		but operation B applies to old state
+		Server applies B to the intermediary state
+	Forward Transforms
+		S = "hello"
+		dA = "5+ there"
+		dB = "5+ world"
+		S = dA = "hello there"
+		Transform(dA, dB) = transform dB with respect to dA
+		Transform(dA, dB) = "11+ world"
+		(S + dA) + Transform(dA, dB) = "hello there world"
+
+	Sync protocol
+		Server versions all data
+		clients keep a copy of latest server version
+		Clients send changes to server
+		server publishes changes to all clients
+	
 
 
 
