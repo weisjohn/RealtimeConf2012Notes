@@ -232,17 +232,98 @@ Emily Rose - Realtime Hardware
 
 	Twilio / Arduino / Node ==> realtime monitoring system
 
+	Ultrasonic Sensors
+
+		5v power 
+
+		trigger , echo
+
+		sends a ping and you can see how far away the nearest 
+
+	Breadboard + some wires
+
+	6 months of work
+
+	Node modules
+
+		serial-port
+
+			https://github.com/voodootikigod/node-serialport
+
+		node-firmata
+
+			https://github.com/santiago/node-firmata
+
+		johnny-five
+
+			https://github.com/rwldrn/johnny-five
+
+	Websockets = Realtime
+
+	Intermission 
 
 
-
-
-
-
-
-
-
-
+Brian Beggs - Enableing EnerNOC's Realtime Data
 	
+	Get more from energy
+
+	Principal Software Engineer at EnerNOC
+
+	Smart Grid / Green Energy Company
+
+	Based in Boston, MA
+
+	What do they do?
+
+		they put energy back on teh grid by taking power off the grid.
+
+		this is called Demand Response
+
+	OMG
+
+		metal crushes, book binders,
+
+		SYSO = shut your shit off.
+
+		some sites are automated, we can dim lights at some grocery store chains
+
+	Grid operators
+
+		meeting peak demand can be hard, it's usually only a hand full of days a year
+
+		bringing on a new power plant is expensive
+
+		spinning reserve power plants are very dirty
+
+	C & I Customer
+
+		large industrial customers are often charged for Peak Demand Usage
+
+		sometimes it's cheaper to shut down than to run production
+
+		EnerNOC splits a portion of the payment from the grid operator with the customer
+
+	Reducing energy is cool
+
+		ERT = http://www.energyhub.com/smart-meters/
+
+	4 million readings / day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
