@@ -310,8 +310,54 @@ Brian Beggs - Enableing EnerNOC's Realtime Data
 	4 million readings / day
 
 
+Bob Weiman - Prospective Search
+
+	worked on email
+
+	pubsub.com
+
+	Retrospective Database
+
+	http://frackim.appspot.com/
+
+	Index queries , instead of index statements
+
+	amazing stuff...
 
 
+
+
+Luigi Montanez - Server Sent Events 
+
+	HTML5 
+
+	For a good realtime
+
+	Upworthy
+
+	client
+
+		ServerSent polyfill
+
+		https://github.com/rwldrn/jquery.eventsource
+
+		https://github.com/Yaffle/EventSource
+
+	implementing it on the server
+
+		node.js - no modules needed
+
+	when you need a sprinkling of realtime
+
+		you just need a little... mostly downstream...
+
+		simple, easy to implement spec...
+
+		anti-complexity philosophy
+
+	
+	
+	
 
 
 
