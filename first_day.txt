@@ -544,11 +544,146 @@ Henrik Joreteg - The State of Realtime at &yet - https://twitter.com/HenrikJoret
 
 	different transports, different features
 
-		
+	every user has their own event feed 
+
+		that gets munged together from the different feeds that they are a part of...
+
+	whatever 
+
+	what does all this mean?
+
+		if you recognize that all of the value that you are adding is that you are good at data
+
+		all of it matters
+
+	Meta-programming
 
 
+Amber Case - @caseorganic - https://twitter.com/caseorganic
 
+	Self-Portait of Steve Mann with Wearable Computing Apparatus 1981
 
+		http://en.wikipedia.org/wiki/Steve_Mann
+
+		Diminished Reality , not augmented reality...
+
+		you get rid of the parts of reality that you don't want...
+
+		body swapped illusion
+
+		Edits Wikipedia while he walks down the street...
+
+		He doesn't like the idea of conforming to a computer
+
+		Computer-Mediated Reality
+			Face Recognition and History
+
+		Evolution of Prosthesis
+
+			1980 -> 1998 
+
+			what will happen to reality when 
+
+		Surveliance
+
+			equalvalence - when everyone in society has the ability to observe	
+
+		live streaming
+
+		Borg Group - MIT Media Lab
+
+	Google Glass...
+
+	What about input?
+
+		Persistent Architecture
+
+			mouse and keyboard
+
+			liguid interface...
+
+		Mobile input - PS2 
+
+		Twiddler by HandyKey Corporation
+
+	Thad Starner
+
+		http://en.wikipedia.org/wiki/Thad_Starner
+
+	Hacked MyVu 
+
+		http://en.wikipedia.org/wiki/MyVu
+
+	Google Glass
+
+	Haptic Compass Belt
+
+		http://sensebridge.net/
+
+	EEG 
+
+	Ambient Notifications
+
+		processes occur in the background
+		data is pushed to the user
+
+		current speed (slow or fast?)
+
+		Because I Carry My Cell Phone Anyway: Functional Location-based Reminder Applications
+
+	Sounds Great!
+
+		But...
+
+		Battery Drain
+
+	Geoloqi
+
+		Next generation
+
+		open source 
+
+		An invisible button
+
+		location should empower people
+
+		your phone will become a remote control for reality
+
+		uses of real-time location
+
+	Geonotes 
+
+		location-based messages
+
+	Proximal Notification
+
+		waiting at the curb to get picked up...
+
+		you can see them coming
+
+	Send someone a message if they're not somewhere at a particular time
+
+		inform someone of a significant social update...
+
+		user your location to turn on and off the lights
+
+		enter the house, the lights turn on
+
+		leave and the lights turn off...
+
+	Real-time hyper local weather
+
+		in ten minutes, it'll rain for 20 minutes...
+
+	Transit Notifications
+
+	It's not fair that you sit in front of the computer all the time...
+
+	ideas for a game...
+
+		20 different device profiles
+
+		android, etc....
 
 
 
