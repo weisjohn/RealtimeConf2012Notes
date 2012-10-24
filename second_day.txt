@@ -402,10 +402,99 @@ James Halliday - Substack -
 	https://github.com/substack/node-browserify
 
 
+Ward Cunningham
 
+	publish then review stategy...
+
+	feedback loop is 10x faster 
+
+	published-ness is why it's so good so fast
+
+	good feedback loops are good
 
 	
 	
+
+Mikeal Rogers - @mikeal - "Untitled"
+
+	alchemy
+
+		Harley 2407.
+
+		what was the point of this process?
+
+		anybody who knew this or anything greater could replicate this...
+
+		but if you didn't know, you couldn't do it
+
+	Robert Boyle and the Invisible College
+
+		when you publish what you've done, you have to publish the steps that it took to get there...
+
+		Air pump that Robert Boyle made
+
+			diagram , accompanying texts
+
+			reproduceable by someone who doesn't know as much as Robert Boyle
+
+	the internet
+
+		even scientists like being a special class of people
+
+		"Paleontology versus genetics" - 1930
+
+		new publications attempt to keep information away from people
+
+	Assembly
+
+		you have to have a really good understanding of what is going on below...
+
+	C
+
+		you don't have to know as much, but still some
+
+	memory managed languages
+
+		over the last 10 or 15 years, we sort of stop...
+
+		we never really create things that are used by another class of programmers...
+
+		creative people can use this process
+
+	PHP & Rails & jQuery
+
+	Github
+
+		then github happens
+
+		probably the most disruptive process
+
+		reduced the barrier for contribution
+
+		bootstrap, node, html5-boilerplate, impress.js, backbone, Spoon-Knife, homebrew, chosen, d3, three.js
+
+	coordination cost
+
+		contribution, hosting, ticket tracking, bigger projects, 
+
+		this is how Apache grew every feature ever
+
+	amazteurization
+
+	node.js
+
+		first platform after github
+
+		you can study the effects 
+
+		robots.
+
+		
+
+
+	
+
+
 
 
 
