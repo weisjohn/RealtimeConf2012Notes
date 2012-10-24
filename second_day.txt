@@ -355,7 +355,55 @@ Luigi Montanez - Server Sent Events
 
 		anti-complexity philosophy
 
-	
+
+James Halliday - Substack - 
+
+	distributed algorithms that replicate to other systems
+
+	dnode - https://github.com/substack/dnode
+
+	duplex stream - 
+
+		d.pipe(stream).pipe(d);
+
+	peer to peer state replication with scuttlebutt 
+
+	Dominic Tarr - https://github.com/dominictarr/scuttlebutt
+
+		distributed gossip protocol
+
+		replication
+
+		https://github.com/substack/shoe
+
+		duplex patterns that replicate over 
+
+	https://github.com/dominictarr/crdt
+
+	Browser.ify - 
+
+		https://github.com/substack/node-browserify
+
+	https://npmjs.org/~substack
+
+		MuxDemux
+
+	roll your own socket.io
+
+	using shoe and emit-stream
+
+	https://github.com/substack/emit-stream
+
+
+	Server configuration - 
+
+		https://github.com/substack/seaport
+
+	https://github.com/substack/node-browserify
+
+
+
+
 	
 	
 
