@@ -1,0 +1,178 @@
+
+
+Observability - @dshaw - http://dshaw.github.com/2012-10-nodedublin/#/
+
+	app.get('/health')
+
+	use replify
+
+	access your replify repl 
+
+		netcat
+		socat
+
+	repl-client 
+
+	npm install -g repl-client
+
+		history
+		tab completion
+
+
+	aggregate and lossy observability
+
+		loggly
+		graylog2
+		splunk
+		winston/winstond
+		files + grep
+
+	monitoring
+
+		boundary
+		nagios
+		reconnoiter
+		circonus
+		munin
+
+	metrics
+		etsy statsd
+		http://summerofnodejs.com/
+
+	metrics (can) tell a story
+		visualization
+		comparative analysis
+		system health
+		event triggers
+
+	dtrace
+		http://en.wikipedia.org/wiki/DTrace
+
+	observability means optimizing software for humans.
+
+
+Glenn Block - @gblock - Azure
+	
+	develop infra, tools and librariers for node in Azure
+
+	supporter of the node community
+
+	cloud migration
+
+		apps are moving to the cloud, node especially
+
+	deploying node fast and continually
+
+		from any platform
+
+		npm install azure -g 
+
+		azure account download
+
+		azure account import
+
+		azure site create gbtest --github - u weisjohn
+
+	other tools
+
+		azure site deployment list
+		azure site deployment show [id]
+		azure site redeploy [id]
+		azure site show
+		azure site list
+		
+		rollbacks:
+			azure site deployment list
+			azure site redeploy [id]
+
+	Linux VMs
+		(yes we also support Windows)
+
+	you can also scale...
+
+	VM commands
+
+		azure vm list // shows the VMs that are currently running
+
+		azure vm image list
+
+	Windows Azure Marketplace...
+
+		Ubuntu running in Windows Azure
+
+	Windows Azure 
+
+		scale modes
+
+
+		free | shared | reserved
+
+	9 data centers throughout the world...
+
+
+	app setting environment variables
+
+
+	Windows Azure Mobile Services
+
+
+	https://www.windowsazure.com/en-us/develop/nodejs/
+
+
+
+Peter Saint-Andre - @stpeter - https://stpeter.im/files/realtimeconf.pdf
+
+	Jabber - 1999 talk
+
+	The concept of Presence
+
+	XMPP , pub sub
+
+	presence is availability, attention, focus, capability
+
+	ssl/tls everywhere is only the beginning
+
+	internationalization matters
+
+		unicode compliant
+
+		UTF8 , unicode 
+
+	federation matters
+
+	that's nice, but .... 
+
+	presence is so 90s
+
+	near-time apps
+	real-time apps
+
+	trigger for spontaneous / intensive interaction
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
