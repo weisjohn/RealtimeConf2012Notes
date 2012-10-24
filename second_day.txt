@@ -169,6 +169,51 @@ Peter Saint-Andre - @stpeter - https://stpeter.im/files/realtimeconf.pdf
 
 	please, don't be a small silo...
 
+	presence is the dialtone for the realtime internet
+
+	presence is a catalyst for and byproduct of realtime web
+
+
+Eran Hammer - The Last Ever OAuth talk - Rethinking OAuth
+
+	Fuck OAuth
+
+	I hate cats
+	(I have 3 at home)
+	(all named 'that damn cat')
+
+	I'm sorry...
+
+	Quiz Time
+		PHP 4
+		world shittiest hosting (no https)
+		good enough for google
+		not OpenID
+
+	Pain
+		signatures
+		broken libraries
+		extensions
+		crappy specification
+
+	WRAP - https://developers.facebook.com/blog/post/335/
+
+	The scam
+		no signatures
+		require token refresh
+		signatures < stateful client
+
+	OAuth 2.0
+		interoberability
+		not a protocol
+		extensible
+
+	3 years later
+		framework
+		assertions (saml, jwt)
+		no signatures
+		hosted applications centric
+
 	
 
 
