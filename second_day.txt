@@ -149,19 +149,27 @@ Peter Saint-Andre - @stpeter - https://stpeter.im/files/realtimeconf.pdf
 
 	trigger for spontaneous / intensive interaction
 
+	more interactions now are in mobile devics and web brwosers
+
+	per-app presence in browsers
+
+	XMPP over WebSocket
+
+	don't be scared by the X in XMPP
+
+	angle-brackets are not required
+
+	it's easy to use web APIs like stope.js
+
+	too many people are still working synchronously
+
+	web presence + webrtc 
+
+	lots of presence at large silors,
+
+	please, don't be a small silo...
+
 	
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
