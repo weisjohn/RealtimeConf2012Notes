@@ -685,6 +685,52 @@ Amber Case - @caseorganic - https://twitter.com/caseorganic
 
 		android, etc....
 
+	IV. 	
+
+		final frustrations...
+
+		data is stuck on the web
+
+		pinballmap.com
+
+			the venue next door is ... 
+
+			Pinball Machine Database
+
+		Mill Ends Park example...
+
+			bringing wikipedia to life
+
+			it's like having a historical guide with you at any moment 
+
+		Don't Eat That
+
+			all of the places not to eat in Portland...
+
+	V. Geoloqi tech
+
+		https://developers.geoloqi.com/
+
+		https://github.com/geoloqi
+
+		Battery-Life Optimization Modes
+			real time mode
+			logging
+
+			2.5 million points...
+
+
+	The best technology is invisible
+
+		it should get out of the way and connect people...
+
+	Don't make people into robots. Don't make computers into humans
+
+
+
+
+
+
 
 
 
