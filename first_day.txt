@@ -469,7 +469,83 @@ Fred Cheng - @fredrocious - https://simperium.com/
 		clients keep a copy of latest server version
 		Clients send changes to server
 		server publishes changes to all clients
+
+Henrik Joreteg - The State of Realtime at &yet - https://twitter.com/HenrikJoreteg
 	
+	as it pertains to And Bang 2.0
+
+	What are web apps really!?
+	I'd like to suggest that web apps are
+		a hosted service that's good with some particular data
+	What is gmail's main interface?
+		Email -> Gmail
+		notes -> evernote
+		tweets -> twitter
+		code -> github
+
+	Your api becomes core to what you're offering
+
+	Oh, we need to build a REST API
+		CRUD in REST
+			how do you link an existing user to an existing group?
+			POST /user/47?addToGroup
+			/do you do an existing group
+			or are you actually editing a groups entity?
+		Web API != REST
+
+		Your API is a set of _functionality_
+
+	What do we really want from an API?
+
+		_multiple_ ways of getting data in and out...
+
+	The official app is just another client of the public API
+
+	Full data eventing
+
+		if something happens, you want someone somewhere to know about it
+
+	HTTP is NOT push
+
+	Options
+		WebSockets
+		ServerSent Events
+		XMPP
+		Socket.IO
+		Long-Polling
+		Animated GIF Streaming!?
+
+	We built a spec
+
+		we build everything off of a spec
+
+	Spec generates
+		HTTP REST
+		Socket.IO
+		Andbang.js
+		Unit Tests
+		docs app
+
+	because the spec is a node module, you can generate the transforms that you need from the spec
+
+
+	@fritzy - https://twitter.com/fritzy
+
+		Lua scripting for all of those API methods
+
+		all of the business logic in the database
+
+		that makes it not a database 
+
+		what's cool about that is that they can event right out of their user actions
+
+		that publishes an event and CRUD-eds out some actions that clients understand
+
+
+	different transports, different features
+
+		
+
 
 
 
