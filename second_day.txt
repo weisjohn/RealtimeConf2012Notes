@@ -214,8 +214,35 @@ Eran Hammer - The Last Ever OAuth talk - Rethinking OAuth
 		no signatures
 		hosted applications centric
 
-	
+	OZ
 
+		goals:
+
+		open source
+		implementation first
+		consumer web
+		mobile & native
+		realtime & beyond http
+
+
+
+Emily Rose - Realtime Hardware
+
+	Casa de Ablo
+
+	Twilio / Arduino / Node ==> realtime monitoring system
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
