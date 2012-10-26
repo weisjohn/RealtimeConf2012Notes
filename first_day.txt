@@ -725,4 +725,4 @@ Amber Case - @caseorganic - https://twitter.com/caseorganic
 		it should get out of the way and connect people...
 
 	Don't make people into robots. Don't make computers into humans
-	
+

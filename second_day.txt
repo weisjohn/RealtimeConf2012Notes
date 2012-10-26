@@ -1,5 +1,4 @@
 
-
 Observability - @dshaw - http://dshaw.github.com/2012-10-nodedublin/#/
 
 	app.get('/health')
@@ -378,7 +377,7 @@ James Halliday - Substack -
 
 		duplex patterns that replicate over 
 
-	https://github.com/dominictarr/crdt
+		https://github.com/dominictarr/crdt
 
 	Browser.ify - 
 
@@ -507,7 +506,7 @@ Adam
 
 	you are a leader if you "do things"
 
-	
+
 
 
 
