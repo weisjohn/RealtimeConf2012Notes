@@ -1,4 +1,5 @@
-IO Insights from @rauchg
+
+Guillermo Rauch - @rauchg - IO Insights - https://speakerdeck.com/rauchg/io-insights
 
 	learnboost.com
 
@@ -45,11 +46,7 @@ IO Insights from @rauchg
 				Analyze and document perfroamcne implications
 
 
-
-
-How my ops guy totally changed my talk last week with a single Nginx module - from @northisup
-
-	https://speakerdeck.com/northisup/krtconf-making-disqus-realtime
+Adam Hitchcock - @northisup - Making Disqus Realtime - https://speakerdeck.com/northisup/krtconf-making-disqus-realtime
 
 	https://twitter.com/northisup
 
@@ -91,7 +88,7 @@ How my ops guy totally changed my talk last week with a single Nginx module - fr
 		disqus.com/jobs
 
 
- @solomonstre ZeroRPC - guy from dotCloud
+ Solomon Hykes - @solomonstre - ZeroRPC - 
 
 	https://twitter.com/solomonstre
 
@@ -109,7 +106,7 @@ How my ops guy totally changed my talk last week with a single Nginx module - fr
 
 
 
-Julien Genestoux - @julien51 - the Social Web is the Realtime Web
+Julien Genestoux - the Social Web is the Realtime Web - @julien51 - 
 
 	http://ouvre-boite.com/
 	
@@ -142,10 +139,8 @@ Julien Genestoux - @julien51 - the Social Web is the Realtime Web
 	In a real pub-sub world, you don't have to always be online... the server pushes out data and if you've subscribed 
 
 
-Airbnb guy
+Spike Brehms - Building Single-Page Apps - @spikebrehm - http://nerds.airbnb.com/slides-and-video-from-spike-brehms-tech-talk
 
-	http://nerds.airbnb.com/slides-and-video-from-spike-brehms-tech-talk
-	
 	Single Page apps
 
 		Easy way 
@@ -173,7 +168,9 @@ Airbnb guy
 			module runs in the context of an express router and 
 
 
-The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
+Dave Cridland - The Bilingual Browser - 
+
+	VP Engineering (XMPP) - Isode Ltd
 
 	A delusion offered for sharing
 
@@ -203,7 +200,7 @@ The Bilingual Browser - Dave Cridland - VP Engineering (XMPP) - Isode Ltd
 
 
 
-William Chen and ?
+William Chen and ? - SPDY 
 
 	RTT = round trip time
 
@@ -270,9 +267,8 @@ William Chen and ?
 	You can use SPDY for HTTP content...
 
 
-Arnout Kazemier - Taking the Suck out of WebSuckets and Start Building those Fancy Pancy Applications - @3rdEden
-
-	http://www.slideshare.net/3rdEden/realtimeconfoct2012
+Arnout Kazemier - @3rdEden - Taking the Suck out of WebSuckets - http://www.slideshare.net/3rdEden/realtimeconfoct2012
+	
 
 	Extraordinary JavaScript Hybrid, founder of Observe.it and Lead Software Engineer at Nodejitsu. Loves real-time, Node.js, NoSQL & other bad-ass technologies
 
@@ -327,7 +323,9 @@ Firebase - `		 - @firebase
 
 
 
-Jose de Castro - @loopingrage http://voxeolabs.com/ - https://www.tropo.com/home.jsp
+Jose de Castro - @loopingrage - WebRTC - 
+
+	http://voxeolabs.com/ - https://www.tropo.com/home.jsp
 
  	WebRTC is a new API for embedding real-time communications into websites
 
@@ -377,7 +375,7 @@ Jose de Castro - @loopingrage http://voxeolabs.com/ - https://www.tropo.com/home
 		time to deconstruct communications
 
 
-Ben Langfeld - https://twitter.com/benlangfeld
+Ben Langfeld - @benlangfeld
 
 	in Brazil, they have more than 1 cell phone / person
 
@@ -423,7 +421,9 @@ Ben Langfeld - https://twitter.com/benlangfeld
 
 
 
-Fred Cheng - @fredrocious - https://simperium.com/
+Fred Cheng - @fredrocious - Operational Transforms
+
+	https://simperium.com/
 
 	Operational Transforms
 		two operations that are trying to modify the sample state
@@ -470,7 +470,7 @@ Fred Cheng - @fredrocious - https://simperium.com/
 		Clients send changes to server
 		server publishes changes to all clients
 
-Henrik Joreteg - The State of Realtime at &yet - https://twitter.com/HenrikJoreteg
+Henrik Joreteg - @HenrikJoreteg - The State of Realtime at &yet - https://twitter.com/HenrikJoreteg
 	
 	as it pertains to And Bang 2.0
 
@@ -559,7 +559,7 @@ Henrik Joreteg - The State of Realtime at &yet - https://twitter.com/HenrikJoret
 	Meta-programming
 
 
-Amber Case - @caseorganic - https://twitter.com/caseorganic
+Amber Case - @caseorganic - Weable Computing / Geolocation
 
 	Self-Portait of Steve Mann with Wearable Computing Apparatus 1981
 
