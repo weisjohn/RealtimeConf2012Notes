@@ -13,8 +13,12 @@ They're in tab (`\t`) outline format.
 
 ### First Day
 
-IO Insights from @rauchg
+* Guillermo Rauch - IO Insights - @rauchg - 
+* Adam Hitchcock - How my ops guy totally changed my talk last week with a single Nginx module - @northisup - 
+* 
+
+
 
 ### Second Day
 
-* @dshaw - http://dshaw.github.com/2012-10-nodedublin/#/
+* Daniel Shaw - Observability - @dshaw - http://dshaw.github.com/2012-10-nodedublin/#/
