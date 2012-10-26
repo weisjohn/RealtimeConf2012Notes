@@ -168,7 +168,7 @@ Spike Brehms - Building Single-Page Apps - @spikebrehm - http://nerds.airbnb.com
 			module runs in the context of an express router and 
 
 
-Dave Cridland - The Bilingual Browser - 
+Dave Cridland - +Dave Cridland - The Bilingual Browser - https://plus.google.com/112072901242275143292/posts
 
 	VP Engineering (XMPP) - Isode Ltd
 

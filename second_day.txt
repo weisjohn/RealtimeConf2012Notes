@@ -50,7 +50,7 @@ Observability - @dshaw - http://dshaw.github.com/2012-10-nodedublin/#/
 	observability means optimizing software for humans.
 
 
-Glenn Block - @gblock - Azure
+Glenn Block - @gblock - Azure w/ node preview
 	
 	develop infra, tools and librariers for node in Azure
 
@@ -173,7 +173,7 @@ Peter Saint-Andre - @stpeter - https://stpeter.im/files/realtimeconf.pdf
 	presence is a catalyst for and byproduct of realtime web
 
 
-Eran Hammer - The Last Ever OAuth talk - Rethinking OAuth
+Eran Hammer - @eranhammer - The Last Ever OAuth talk / Rethinking OAuth
 
 	Fuck OAuth
 
@@ -225,7 +225,7 @@ Eran Hammer - The Last Ever OAuth talk - Rethinking OAuth
 
 
 
-Emily Rose - Realtime Hardware
+Emily Rose - @nexxylove - Realtime Hardware
 
 	Casa de Ablo
 
@@ -262,7 +262,7 @@ Emily Rose - Realtime Hardware
 	Intermission 
 
 
-Brian Beggs - Enableing EnerNOC's Realtime Data
+Brian Beggs - @macdiesel412 - Enableing EnerNOC's Realtime Data
 	
 	Get more from energy
 
@@ -324,9 +324,7 @@ Bob Weiman - Prospective Search
 	amazing stuff...
 
 
-
-
-Luigi Montanez - Server Sent Events 
+Luigi Montanez - @LuigiMontanez - Server Sent Events 
 
 	HTML5 
 
@@ -355,7 +353,7 @@ Luigi Montanez - Server Sent Events
 		anti-complexity philosophy
 
 
-James Halliday - Substack - 
+James Halliday - @substack - distributed algorithms 
 
 	distributed algorithms that replicate to other systems
 
@@ -401,7 +399,7 @@ James Halliday - Substack -
 	https://github.com/substack/node-browserify
 
 
-Ward Cunningham
+Ward Cunningham - @wardcunningham - Federated Wiki
 
 	publish then review stategy...
 
