@@ -39,7 +39,7 @@ They're in tab (`\t`) outline format.
 * Emily Rose - @nexxylove - Realtime Hardware
 * Brian Beggs - @macdiesel412 - Enableing EnerNOC's Realtime Data
 * Bob Weiman - Prospective Search
-* Luigi Montanez - @LuigiMontanez - Server Sent Events 
+* Luigi Montanez - @LuigiMontanez - Server Sent Events - https://speakerdeck.com/luigi/server-sent-events-at-realtime-conf-2012
 * James Halliday - @substack - distributed algorithms 
 * Ward Cunningham - @wardcunningham - Federated Wiki
 * Mikeal Rogers - @mikeal - "Untitled"
